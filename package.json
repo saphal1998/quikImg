@@ -1,0 +1,32 @@
+{
+  "name": "quikImg",
+  "version": "1.0.0",
+  "main": "build/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev:watch": "tsc -w",
+    "dev:backend": "ts-node src/api/index.ts",
+    "start:backend": "node dist/api/index.js"
+  },
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/debug": "^4.1.5",
+    "@types/express": "^4.17.9",
+    "@types/mongoose": "^5.10.3",
+    "@types/multer": "^1.4.5",
+    "@types/multer-s3": "^2.7.9",
+    "@types/node": "^14.14.20",
+    "@types/util.promisify": "^1.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.824.0",
+    "debug": "^4.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.12",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0"
+  }
+}
